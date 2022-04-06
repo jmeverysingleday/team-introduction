@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>안녕하세요 김인영입니다</title>
+</head>
+<body>
+   <body bgcolor="#dddddd"></body>
+    <h1>안녕하세요 김인영입니다</h1>
+    <h3>제가 궁금하신가요?</h3>
+    <img src="inyoung-img.jpg" width="300px">
+    <br>
+    <hr>
+
+    <ul>
+        <li>이름: 김인영</li>
+        <li>나이: 24</li>
+        <li>학과: 아동가족학과</li>
+        <li>mbti: infj</li>
+        <li>좋아하는 노래: 이강승-우리가 맞다는 대답을 할 거예요</li>
+        <li><a href="https://www.instagram.com/yin0y/" target="_blank">인스타그램</a></li>
+    </ul>
+
+    <br>
+    <h3>이제 당신을 소개해주세요</h3>
+    <br>
+    <form action="소개.php"method="get">
+    <h4>이름</h4>
+    <input type="text" id="name" name="name" placeholder="이름을 입력하세요">
+    <br>
+    <h4>나이</h4>
+    <input type="text" id="age" name="age" placeholder="나이를 입력하세요">
+    <br>
+    <h4>성별</h4>
+    <input type="radio" name="gender" value="m">남성
+    <input type="radio" name="gender" value="f">여성
+    <br>
+    <h4>소속팀</h4>
+    <select>
+        <option value="a">기획/디자인</option>
+        <option value="b">프론트</option>
+        <option value="c">백엔드</option>
+    </select>
+    <br>
+    <h4>하고싶은 말</h4>
+    <textarea  name="word" cols="50" rows="5">
+    </textarea>
+    <br>
+    <button type="submit" formaction="/examples/media/action_target2.php">제출하기</button>
+    <button type="reset">초기화</button>
+</form>
+
+
+</body>
+</html>
